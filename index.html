@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DNA Mutation Identifier</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>DNA Mutation Identifier</h1>
+  <div class="container">
+    <label for="original-dna">Original DNA:</label>
+    <input type="text" id="original-dna" placeholder="Enter original DNA sequence">
+    <label for="mutated-dna">Mutated DNA:</label>
+    <input type="text" id="mutated-dna" placeholder="Enter mutated DNA sequence">
+    <button onclick="identifyMutation()">Identify Mutation</button>
+  </div>
+  <p id="mutation-type"></p>
+  <script src="script.js"></script>
+</body>
+
+</html>
